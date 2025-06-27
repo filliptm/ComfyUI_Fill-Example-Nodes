@@ -1,0 +1,219 @@
+{
+  "id": "f4899d2e-99a4-4aa1-b44b-470ff62e80a1",
+  "revision": 0,
+  "last_node_id": 5,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "FLExampleCanvasColorPicker",
+      "pos": [
+        50,
+        50
+      ],
+      "size": [
+        251.52011108398438,
+        445
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FLExampleCanvasColorPicker"
+      },
+      "widgets_values": [
+        "#FF0000",
+        512,
+        512,
+        "reset",
+        null,
+        "#FF0000",
+        255,
+        0,
+        0
+      ],
+      "color": "#6A006F",
+      "bgcolor": "#FFFFFF"
+    },
+    {
+      "id": 2,
+      "type": "FLExampleHelloWorld",
+      "pos": [
+        351.5201110839844,
+        50
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FLExampleHelloWorld"
+      },
+      "widgets_values": [
+        "Hello, World!"
+      ],
+      "color": "#6A006F",
+      "bgcolor": "#FFFFFF"
+    },
+    {
+      "id": 3,
+      "type": "FLExampleImageBatcher",
+      "pos": [
+        671.5201416015625,
+        50
+      ],
+      "size": [
+        274.9683532714844,
+        78
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FLExampleImageBatcher"
+      },
+      "widgets_values": [
+        1
+      ],
+      "color": "#6A006F",
+      "bgcolor": "#FFFFFF"
+    },
+    {
+      "id": 4,
+      "type": "FLExampleJsNode",
+      "pos": [
+        996.4884643554688,
+        50
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FLExampleJsNode"
+      },
+      "widgets_values": [
+        0
+      ],
+      "color": "#6A006F",
+      "bgcolor": "#FFFFFF"
+    },
+    {
+      "id": 5,
+      "type": "FLExampleProgressBar",
+      "pos": [
+        1316.488525390625,
+        50
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FLExampleProgressBar"
+      },
+      "widgets_values": [
+        10
+      ],
+      "color": "#6A006F",
+      "bgcolor": "#FFFFFF"
+    }
+  ],
+  "links": [],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Group",
+      "bounding": [
+        40,
+        -23.600000381469727,
+        1556.488525390625,
+        528.5999755859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8,
+      "offset": [
+        294.5926501704198,
+        253.50754442401956
+      ]
+    },
+    "frontendVersion": "1.20.7",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
