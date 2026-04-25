@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_fill-example-nodes"
 description = "An example node pack for ComfyUI to demonstrate custom node creation."
-version = "1 0 1"
+version = "1.0.1"
 license = "LICENSE"
 dependencies = []
 
