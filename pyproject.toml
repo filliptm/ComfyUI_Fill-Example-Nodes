@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_fill-example-nodes"
 description = "An example node pack for ComfyUI to demonstrate custom node creation."
-version = "1.0.0"
+version = "1 0 1"
 license = "LICENSE"
 dependencies = []
 
@@ -9,6 +9,6 @@ dependencies = []
 Repository = "https://github.com/filliptm/ComfyUI_Fill-Example-Nodes"
 
 [tool.comfy]
-PublisherId = "filliptm"
+PublisherId = "machinedelusions"
 DisplayName = "ComfyUI_Fill-Example-Nodes"
-Icon = ""
+Icon = "https://avatars.githubusercontent.com/u/55672949"
